@@ -1,0 +1,38 @@
+{
+  "name": "promise-trk",
+  "private": true,
+  "version": "0.0.2",
+  "keywords": [],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/promise-tracker.umd.js",
+  "module": "./dist/promise-tracker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/promise-tracker.es.js",
+      "require": "./dist/promise-tracker.umd.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 3000",
+    "build": "rm -rf ./dist && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-css-injected-by-js": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0-beta.0",
+    "vite": "^4.3.0"
+  }
+}
