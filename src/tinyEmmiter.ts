@@ -1,6 +1,4 @@
-// Based on:
-// https://github.com/scottcorgan/tiny-emitter
-// class based
+
 export class Emitter {
   emit(event, ...args) {
     if (!event) return this;
