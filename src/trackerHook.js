@@ -3,7 +3,7 @@ import {
   emitter,
   promiseCounterUpdateEventId,
   getCounter,
-} from "./trackPromise";
+} from "./promiseTracker";
 import { defaultConfig, setupConfig } from "./setupConfig";
 
 export const usePromiseTracker = (outerConfig = defaultConfig) => {

@@ -1,8 +1,17 @@
 {
-  "name": "promise-trk",
+  "name": "mi-promise-tracker",
   "private": true,
   "version": "0.0.2",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "promise",
+    "tracker",
+    "track",
+    "hook",
+    "spinner",
+    "component",
+    "vite"
+  ],
   "files": [
     "dist",
     "README.md"
@@ -26,8 +35,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-plugin-css-injected-by-js": "^3.1.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

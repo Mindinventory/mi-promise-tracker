@@ -45,19 +45,3 @@ const decrementPromiseCounter = (area) => {
 const decrementCounter = (area) => {
   counter[area]--;
 };
-
-export const manuallyResetPromiseCounter = (area) => {
-  area = area || defaultArea;
-  counter[area] = 0;
-  emitter.emit(promiseCounterUpdateEventId, false, area);
-};
-
-export const manuallyDecrementPromiseCounter = (area) => {
-  area = area || defaultArea;
-  decrementPromiseCounter(area);
-};
-
-export const manuallyIncrementPromiseCounter = (area) => {
-  area = area || defaultArea;
-  incrementPromiseCounter(area);
-};
