@@ -15,7 +15,7 @@ npm install mi-promise-tracker
 1. Import the usePromiseTracker hook from the package.
 
 ```diff
-+ import { promiseTrack } from 'mi-promise-tracker';
+ import { promiseTrack } from 'mi-promise-tracker';
 ```
 
 2. Wrap the component that executes the promise with the ```usePromiseTracker``` hook.
